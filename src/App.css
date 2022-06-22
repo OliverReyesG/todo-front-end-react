@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  min-height: 100vh;
+}
+
+.login {
+  align-items: center;
+  justify-content: center;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.input-container {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  text-align: center;
+}
+
+.todos-list {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 25, 25);
+}
+
+.todo-list-item {
+  display: flex;
+  border-bottom: solid 2px rgb(55, 55, 55);
+}
+
+.todo-list-item:hover {
+  background-color: rgb(55, 55, 55);
+}
+
+.todo-list-item-check-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.todo-list-item-check-container:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+.todo-list-item-check {
+  width: 2em;
+  height: 2em;
+}
+
+.todo-list-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+
+.todo-detail {
+  width: 100%;
+  padding: 2em;
+}
+
+.todo-detail > form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  padding: 2em;
+  border-style: none;
+  border-radius: 10px;
+}
+
+textarea {
+  padding: 2em;
+  border-style: none;
+  border-radius: 10px;
+}
+
+button {
+  background-color: rgb(25, 25, 25);
+  color: inherit;
+  padding: 2em;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: rgb(25, 25, 25);
+  color: inherit;
+  padding: 2em;
+  text-align: center;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.danger {
+  background: brown;
+}
+
+.create {
+  background: rgb(42, 165, 42);
+}
+
+.neutral {
+  background: rgb(45, 45, 45);
+}
